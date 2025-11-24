@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# environnements virtuels
+venv/
+env/
+.env
+
+# fichiers temporaires
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# fichiers système
+.DS_Store
+Thumbs.db

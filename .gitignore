@@ -1,13 +1,13 @@
-# environnement virtuel
+# virtual environment
 venv/
 env/
 .env
 
-# fichiers temporaires
+# temp files
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# fichiers système
+# system files
 .DS_Store
 Thumbs.db

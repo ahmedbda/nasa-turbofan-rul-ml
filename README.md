@@ -51,10 +51,12 @@ For the machine learning I chose a Random Forest regression for its ability to h
 $$\hat{y} = \frac{1}{K} \sum_{k=1}^{K} T_k(x)$$
 
 Here I am using 100 decision trees and a fixed random generator for reproducibility  
+
 <p align="center"><img src="img/model_ontest.png"></p>  
 <br>  
 
 And now the final predictions of the model on the real test set with the settings mentionned  
+
 <p align="center"><img src="img/model_ontrain.png"></p>  
 
 ## How to run the calculated model

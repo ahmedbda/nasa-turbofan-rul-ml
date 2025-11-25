@@ -4,7 +4,7 @@ A Python machine learning project with Pandas and Scikit-learn to predict the li
 <p align="center">
 <img src="img/turbofan_c-mapps.png" width="500">
 <br>
-Diagram from <a href="https://planenerd.com/how-many-rpm-does-jet-engine-spin/">Planenerd</a>
+Diagram: <a href="https://planenerd.com/how-many-rpm-does-jet-engine-spin/">Planenerd</a>
 </p>
 
 ## Table of content

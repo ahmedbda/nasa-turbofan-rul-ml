@@ -39,12 +39,12 @@ I hypothesized about the properties of a turbofan engine to select the most rele
 * Temperatures (sensors 2 and 4): rise due to efficiency loss 
 * Pressure and fan speed (sensors 7 and 12): drop due to wear and tear  
   
-<p align="center"><img src="img/first_turbofan_behavior.png" ></p>  
+<p align="center"><img src="img/first_turbofan_behavior.png" width="800"></p>  
 <br>  
 
 I then applied a rolling mean with a window of 5 cycles to extract the true degradation trend and to calm the noise  
 
-<p align="center"><img src="img/first_turbofan_smoothed.png"></p>  
+<p align="center"><img src="img/first_turbofan_smoothed.png" width="800"></p>  
 
 For the machine learning I chose a Random Forest regression for its ability to handle non-linear calculations and its robustness to noise, the prediction $\hat{y}$ for a given input $x$ is the average of the predictions of $K$ individual decision trees $T_k$:
 
@@ -52,12 +52,12 @@ $$\hat{y} = \frac{1}{K} \sum_{k=1}^{K} T_k(x)$$
 
 Here I am using 100 decision trees and a fixed random generator for reproducibility  
 
-<p align="center"><img src="img/model_ontest.png"></p>  
+<p align="center"><img src="img/model_ontest.png" width="600"></p>  
 <br>  
 
 And now the final predictions of the model on the real test set with the settings mentionned  
 
-<p align="center"><img src="img/model_ontrain.png"></p>  
+<p align="center"><img src="img/model_ontrain.png" width="600"></p>  
 
 ## How to run the calculated model
 The trained model that I have calculated with this project is included in this repository as a compressed file for convenience purposes  

@@ -44,7 +44,7 @@ I hypothesized about the properties of a turbofan engine to select the most rele
 
 I then applied a rolling mean with a window of 5 cycles to extract the true degradation trend and to calm the noise  
 
-<p align="center"><img src="img/first_turbofan_smoothed.png"></p><br>
+<p align="center"><img src="img/first_turbofan_smoothed.png"></p>  
 
 For the machine learning I chose a Random Forest regression for its ability to handle non-linear calculations and its robustness to noise, the prediction $\hat{y}$ for a given input $x$ is the average of the predictions of $K$ individual decision trees $T_k$:
 
@@ -58,7 +58,6 @@ Here I am using 100 decision trees and a fixed random generator for reproducibil
 And now the final predictions of the model on the real test set with the settings mentionned  
 
 <p align="center"><img src="img/model_ontrain.png"></p>  
-<br>
 
 ## How to run the calculated model
 The trained model that I have calculated with this project is included in this repository as a compressed file for convenience purposes  

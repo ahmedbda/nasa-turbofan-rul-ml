@@ -19,7 +19,7 @@ Diagram: <a href="https://planenerd.com/how-many-rpm-does-jet-engine-spin/">Plan
 </details>
 
 ## Project goal
-This project uses machine learning (Random Forest) to predict the RUL (remaining useful life) of turbojet engines based on sensor data provided by the NASA C-MAPSS dataset.  
+This project uses machine learning (Random Forest) to predict the RUL (remaining useful life) of turbojet engines based on sensor data provided by the NASA C-MAPSS dataset  
 
 Given the history of sensor readings (temperature, pressure, fan speed, and more), the goal is to predict exactly how many flight cycles an engine has left before it breaks down
 
@@ -52,12 +52,12 @@ $$\hat{y} = \frac{1}{K} \sum_{k=1}^{K} T_k(x)$$
 
 Here I am using 100 decision trees and a fixed random generator for reproducibility  
 
-<p align="center"><img src="img/model_ontest.png"></p>  
+<p align="center"><img src="img/model_ontrain.png"></p>  
 <br>  
 
 And now the final predictions of the model on the real test set with the settings mentionned  
 
-<p align="center"><img src="img/model_ontrain.png"></p>  
+<p align="center"><img src="img/model_ontest.png"></p>  
 
 ## How to run the calculated model
 The trained model that I have calculated with this project is included in this repository as a compressed file for convenience purposes  

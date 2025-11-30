@@ -30,7 +30,7 @@ The model was evaluated using the RMSE (root mean squared error) metric on a sep
 | Dataset | RMSE score | Interpretation |  
 :-------:|:-------:|:-------:
 | Validation set 20% | 44.76 cycles | Average performance |  
-| Test set | 35.77 cycles | Good performance |  
+| Testing set| 35.77 cycles | High average performance |  
   
 The model performs exceptionally well when the engine approaches failure which is the most critical phase for maintenance decisions
 
